@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import  pca from 'area-data/pca';
+import  pca from '../pca.js';
 import { Checkbox, Label } from "flowbite-react";
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'

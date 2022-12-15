@@ -23,7 +23,6 @@ export default function Home() {
   }
 
   const getSelectProvinceNames = (onlyProvince: boolean = false) => {
-    console.log(onlyProvince)
     if (onlyProvince) {
       return Object.keys(provinces).map(v => pca['86'][v]).join(',')
     } else {
@@ -135,7 +134,7 @@ export default function Home() {
                                   if (!pros[pa]) {
                                     pros[pa] = {}
                                   }
-                                  pros[pa][aa] = av
+                                  pros[pa][aa] = pv + av
                                 }
 
                                 setProvinces(pros)
